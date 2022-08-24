@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Id</title>
+    <title>ID Form</title>
 </head>
 <body>
     <main>
-        <form action="id.php" method="POST">
+        <form action="idcard.php" method="POST">
             <h1>Create Your Virtual ID</h1>
 
 
@@ -32,7 +32,7 @@
             <div class="form-field">
                 <label for="phone" class="label-required">Email</label>
                 <section>
-                    <input name="std_phone" required type="email" id="email" placeholder="someone@example.com">
+                    <input name="std_email" required type="email" id="email" placeholder="someone@example.com">
                 </section>
             </div>    
 
@@ -54,7 +54,7 @@
 
             <!-- BUTTONS -->
             <div class="form-buttons">
-                <button name="generate_btn" type="submit" class="a-btn-field">Generate ID</button>
+                <input name="generate_btn" type="Submit" class="a-btn-filled" value="Generate ID">
             </div>
         </form>
     </main>
